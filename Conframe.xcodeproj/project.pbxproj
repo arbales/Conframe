@@ -14,6 +14,7 @@
 		D944DEBF1385B8D300475478 /* ConframeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D944DEBE1385B8D300475478 /* ConframeAppDelegate.m */; };
 		D944DEC21385B8D300475478 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D944DEC01385B8D300475478 /* MainMenu.xib */; };
 		D944DEC91385B96F00475478 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D944DEC81385B96F00475478 /* WebKit.framework */; };
+		D944DECB1385F3F400475478 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = D944DECA1385F3F400475478 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		D944DEBE1385B8D300475478 /* ConframeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConframeAppDelegate.m; sourceTree = "<group>"; };
 		D944DEC11385B8D300475478 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D944DEC81385B96F00475478 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		D944DECA1385F3F400475478 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		D944DEB21385B8D300475478 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D944DECA1385F3F400475478 /* Readme.md */,
 				D944DEB31385B8D300475478 /* Conframe-Info.plist */,
 				D944DEB41385B8D300475478 /* InfoPlist.strings */,
 				D944DEB71385B8D300475478 /* Conframe-Prefix.pch */,
@@ -156,6 +159,7 @@
 				D944DEB61385B8D300475478 /* InfoPlist.strings in Resources */,
 				D944DEBC1385B8D300475478 /* Credits.rtf in Resources */,
 				D944DEC21385B8D300475478 /* MainMenu.xib in Resources */,
+				D944DECB1385F3F400475478 /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
