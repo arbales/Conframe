@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D944DEAC1385B8D300475478 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D944DEAB1385B8D300475478 /* Cocoa.framework */; };
+		D944DEB61385B8D300475478 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D944DEB41385B8D300475478 /* InfoPlist.strings */; };
+		D944DEB91385B8D300475478 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D944DEB81385B8D300475478 /* main.m */; };
+		D944DEBC1385B8D300475478 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D944DEBA1385B8D300475478 /* Credits.rtf */; };
+		D944DEBF1385B8D300475478 /* ConframeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D944DEBE1385B8D300475478 /* ConframeAppDelegate.m */; };
+		D944DEC21385B8D300475478 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D944DEC01385B8D300475478 /* MainMenu.xib */; };
+		D944DEC91385B96F00475478 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D944DEC81385B96F00475478 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D944DEA71385B8D300475478 /* Conframe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Conframe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D944DEAB1385B8D300475478 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D944DEAE1385B8D300475478 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D944DEAF1385B8D300475478 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D944DEB01385B8D300475478 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D944DEB31385B8D300475478 /* Conframe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Conframe-Info.plist"; sourceTree = "<group>"; };
+		D944DEB51385B8D300475478 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D944DEB71385B8D300475478 /* Conframe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Conframe-Prefix.pch"; sourceTree = "<group>"; };
+		D944DEB81385B8D300475478 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D944DEBB1385B8D300475478 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D944DEBD1385B8D300475478 /* ConframeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConframeAppDelegate.h; sourceTree = "<group>"; };
+		D944DEBE1385B8D300475478 /* ConframeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConframeAppDelegate.m; sourceTree = "<group>"; };
+		D944DEC11385B8D300475478 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D944DEC81385B96F00475478 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D944DEA41385B8D300475478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D944DEC91385B96F00475478 /* WebKit.framework in Frameworks */,
+				D944DEAC1385B8D300475478 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D944DE9C1385B8D300475478 = {
+			isa = PBXGroup;
+			children = (
+				D944DEC81385B96F00475478 /* WebKit.framework */,
+				D944DEB11385B8D300475478 /* Conframe */,
+				D944DEAA1385B8D300475478 /* Frameworks */,
+				D944DEA81385B8D300475478 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D944DEA81385B8D300475478 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D944DEA71385B8D300475478 /* Conframe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D944DEAA1385B8D300475478 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D944DEAB1385B8D300475478 /* Cocoa.framework */,
+				D944DEAD1385B8D300475478 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D944DEAD1385B8D300475478 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D944DEAE1385B8D300475478 /* AppKit.framework */,
+				D944DEAF1385B8D300475478 /* CoreData.framework */,
+				D944DEB01385B8D300475478 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D944DEB11385B8D300475478 /* Conframe */ = {
+			isa = PBXGroup;
+			children = (
+				D944DEBD1385B8D300475478 /* ConframeAppDelegate.h */,
+				D944DEBE1385B8D300475478 /* ConframeAppDelegate.m */,
+				D944DEC01385B8D300475478 /* MainMenu.xib */,
+				D944DEB21385B8D300475478 /* Supporting Files */,
+			);
+			path = Conframe;
+			sourceTree = "<group>";
+		};
+		D944DEB21385B8D300475478 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D944DEB31385B8D300475478 /* Conframe-Info.plist */,
+				D944DEB41385B8D300475478 /* InfoPlist.strings */,
+				D944DEB71385B8D300475478 /* Conframe-Prefix.pch */,
+				D944DEB81385B8D300475478 /* main.m */,
+				D944DEBA1385B8D300475478 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D944DEA61385B8D300475478 /* Conframe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D944DEC51385B8D300475478 /* Build configuration list for PBXNativeTarget "Conframe" */;
+			buildPhases = (
+				D944DEA31385B8D300475478 /* Sources */,
+				D944DEA41385B8D300475478 /* Frameworks */,
+				D944DEA51385B8D300475478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Conframe;
+			productName = Conframe;
+			productReference = D944DEA71385B8D300475478 /* Conframe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D944DE9E1385B8D300475478 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D944DEA11385B8D300475478 /* Build configuration list for PBXProject "Conframe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D944DE9C1385B8D300475478;
+			productRefGroup = D944DEA81385B8D300475478 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D944DEA61385B8D300475478 /* Conframe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D944DEA51385B8D300475478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D944DEB61385B8D300475478 /* InfoPlist.strings in Resources */,
+				D944DEBC1385B8D300475478 /* Credits.rtf in Resources */,
+				D944DEC21385B8D300475478 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D944DEA31385B8D300475478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D944DEB91385B8D300475478 /* main.m in Sources */,
+				D944DEBF1385B8D300475478 /* ConframeAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D944DEB41385B8D300475478 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D944DEB51385B8D300475478 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D944DEBA1385B8D300475478 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D944DEBB1385B8D300475478 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D944DEC01385B8D300475478 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D944DEC11385B8D300475478 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D944DEC31385B8D300475478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D944DEC41385B8D300475478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D944DEC61385B8D300475478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Conframe/Conframe-Prefix.pch";
+				INFOPLIST_FILE = "Conframe/Conframe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D944DEC71385B8D300475478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Conframe/Conframe-Prefix.pch";
+				INFOPLIST_FILE = "Conframe/Conframe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D944DEA11385B8D300475478 /* Build configuration list for PBXProject "Conframe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D944DEC31385B8D300475478 /* Debug */,
+				D944DEC41385B8D300475478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D944DEC51385B8D300475478 /* Build configuration list for PBXNativeTarget "Conframe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D944DEC61385B8D300475478 /* Debug */,
+				D944DEC71385B8D300475478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D944DE9E1385B8D300475478 /* Project object */;
+}
