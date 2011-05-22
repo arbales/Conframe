@@ -14,8 +14,11 @@
     NSWindow *window;
     WebView *webview;
     NSToolbarItem *username;
+  NSProgressIndicator *spinner;
 }
 - (IBAction)alert:(id)sender;
+@property (assign) IBOutlet NSProgressIndicator *spinner;
+- (IBAction)see_mentions:(id)sender;
 
 @property (assign) IBOutlet NSWindow *window;
 @property (assign) IBOutlet WebView *webview;

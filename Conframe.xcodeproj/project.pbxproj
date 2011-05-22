@@ -15,6 +15,9 @@
 		D944DEC21385B8D300475478 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D944DEC01385B8D300475478 /* MainMenu.xib */; };
 		D944DEC91385B96F00475478 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D944DEC81385B96F00475478 /* WebKit.framework */; };
 		D944DECB1385F3F400475478 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = D944DECA1385F3F400475478 /* Readme.md */; };
+		D98D391F1386675100858FDC /* zepto.min.js in Sources */ = {isa = PBXBuildFile; fileRef = D98D391E1386675100858FDC /* zepto.min.js */; };
+		D98D392113866A2F00858FDC /* zepto.min.js in Resources */ = {isa = PBXBuildFile; fileRef = D98D391E1386675100858FDC /* zepto.min.js */; };
+		D98D39241389C0D400858FDC /* LoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D39231389C0D400858FDC /* LoginRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		D944DEC11385B8D300475478 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D944DEC81385B96F00475478 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		D944DECA1385F3F400475478 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.md; sourceTree = SOURCE_ROOT; };
+		D98D391E1386675100858FDC /* zepto.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = zepto.min.js; sourceTree = "<group>"; };
+		D98D39221389C0D400858FDC /* LoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginRequest.h; sourceTree = "<group>"; };
+		D98D39231389C0D400858FDC /* LoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,8 @@
 				D944DEBE1385B8D300475478 /* ConframeAppDelegate.m */,
 				D944DEC01385B8D300475478 /* MainMenu.xib */,
 				D944DEB21385B8D300475478 /* Supporting Files */,
+				D98D39221389C0D400858FDC /* LoginRequest.h */,
+				D98D39231389C0D400858FDC /* LoginRequest.m */,
 			);
 			path = Conframe;
 			sourceTree = "<group>";
@@ -99,6 +107,7 @@
 		D944DEB21385B8D300475478 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D98D391E1386675100858FDC /* zepto.min.js */,
 				D944DECA1385F3F400475478 /* Readme.md */,
 				D944DEB31385B8D300475478 /* Conframe-Info.plist */,
 				D944DEB41385B8D300475478 /* InfoPlist.strings */,
@@ -157,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D944DEB61385B8D300475478 /* InfoPlist.strings in Resources */,
+				D98D392113866A2F00858FDC /* zepto.min.js in Resources */,
 				D944DEBC1385B8D300475478 /* Credits.rtf in Resources */,
 				D944DEC21385B8D300475478 /* MainMenu.xib in Resources */,
 				D944DECB1385F3F400475478 /* Readme.md in Resources */,
@@ -172,6 +182,8 @@
 			files = (
 				D944DEB91385B8D300475478 /* main.m in Sources */,
 				D944DEBF1385B8D300475478 /* ConframeAppDelegate.m in Sources */,
+				D98D391F1386675100858FDC /* zepto.min.js in Sources */,
+				D98D39241389C0D400858FDC /* LoginRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +298,7 @@
 				D944DEC71385B8D300475478 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
