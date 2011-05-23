@@ -15,9 +15,12 @@
 		D944DEC21385B8D300475478 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D944DEC01385B8D300475478 /* MainMenu.xib */; };
 		D944DEC91385B96F00475478 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D944DEC81385B96F00475478 /* WebKit.framework */; };
 		D944DECB1385F3F400475478 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = D944DECA1385F3F400475478 /* Readme.md */; };
+		D955B4E2138A58D900F8DFAF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D955B4E1138A58D900F8DFAF /* icon.png */; };
+		D955B4E6138A594300F8DFAF /* Conframe.icns in Resources */ = {isa = PBXBuildFile; fileRef = D955B4E5138A594300F8DFAF /* Conframe.icns */; };
+		D955B4EB138A5FA800F8DFAF /* convore-watermark.png in Resources */ = {isa = PBXBuildFile; fileRef = D955B4EA138A5FA800F8DFAF /* convore-watermark.png */; };
+		D955B4EE138A655C00F8DFAF /* ABSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = D955B4ED138A655B00F8DFAF /* ABSplitView.m */; };
 		D98D391F1386675100858FDC /* zepto.min.js in Sources */ = {isa = PBXBuildFile; fileRef = D98D391E1386675100858FDC /* zepto.min.js */; };
 		D98D392113866A2F00858FDC /* zepto.min.js in Resources */ = {isa = PBXBuildFile; fileRef = D98D391E1386675100858FDC /* zepto.min.js */; };
-		D98D39241389C0D400858FDC /* LoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D39231389C0D400858FDC /* LoginRequest.m */; };
 		D9A8E9DD1389F0B700B53404 /* CustomStripe.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A8E9DC1389F0B700B53404 /* CustomStripe.m */; };
 		D9D032A31389D60A00B679EA /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D032951389D60A00B679EA /* ASIInputStream.m */; };
 		D9D032A41389D60A00B679EA /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D032971389D60A00B679EA /* ASIFormDataRequest.m */; };
@@ -49,7 +52,7 @@
 		D9EFFCCC138A0C7A0017B614 /* page-bkg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9EFFCCB138A0C7A0017B614 /* page-bkg2.jpg */; };
 		D9EFFCD3138A0CFE0017B614 /* header-background.png in Resources */ = {isa = PBXBuildFile; fileRef = D9EFFCD1138A0CFD0017B614 /* header-background.png */; };
 		D9EFFCD4138A0CFE0017B614 /* stripe.png in Resources */ = {isa = PBXBuildFile; fileRef = D9EFFCD2138A0CFE0017B614 /* stripe.png */; };
-		D9EFFCD7138A0D750017B614 /* ChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EFFCD6138A0D740017B614 /* ChatView.m */; };
+		D9EFFCD7138A0D750017B614 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EFFCD6138A0D740017B614 /* LoginView.m */; };
 		D9EFFCDA138A0E5D0017B614 /* HeaderBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EFFCD9138A0E5D0017B614 /* HeaderBar.m */; };
 /* End PBXBuildFile section */
 
@@ -81,9 +84,12 @@
 		D944DEC11385B8D300475478 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D944DEC81385B96F00475478 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		D944DECA1385F3F400475478 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.md; sourceTree = SOURCE_ROOT; };
+		D955B4E1138A58D900F8DFAF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		D955B4E5138A594300F8DFAF /* Conframe.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Conframe.icns; sourceTree = "<group>"; };
+		D955B4EA138A5FA800F8DFAF /* convore-watermark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "convore-watermark.png"; sourceTree = "<group>"; };
+		D955B4EC138A655B00F8DFAF /* ABSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABSplitView.h; sourceTree = "<group>"; };
+		D955B4ED138A655B00F8DFAF /* ABSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABSplitView.m; sourceTree = "<group>"; };
 		D98D391E1386675100858FDC /* zepto.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = zepto.min.js; sourceTree = "<group>"; };
-		D98D39221389C0D400858FDC /* LoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginRequest.h; sourceTree = "<group>"; };
-		D98D39231389C0D400858FDC /* LoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginRequest.m; sourceTree = "<group>"; };
 		D9A8E9DB1389F0B700B53404 /* CustomStripe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomStripe.h; sourceTree = "<group>"; };
 		D9A8E9DC1389F0B700B53404 /* CustomStripe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomStripe.m; sourceTree = "<group>"; };
 		D9D032911389D60A00B679EA /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
@@ -144,8 +150,8 @@
 		D9EFFCCB138A0C7A0017B614 /* page-bkg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "page-bkg2.jpg"; sourceTree = "<group>"; };
 		D9EFFCD1138A0CFD0017B614 /* header-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header-background.png"; sourceTree = "<group>"; };
 		D9EFFCD2138A0CFE0017B614 /* stripe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stripe.png; sourceTree = "<group>"; };
-		D9EFFCD5138A0D740017B614 /* ChatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatView.h; sourceTree = "<group>"; };
-		D9EFFCD6138A0D740017B614 /* ChatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatView.m; sourceTree = "<group>"; };
+		D9EFFCD5138A0D740017B614 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		D9EFFCD6138A0D740017B614 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
 		D9EFFCD8138A0E5D0017B614 /* HeaderBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderBar.h; sourceTree = "<group>"; };
 		D9EFFCD9138A0E5D0017B614 /* HeaderBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -169,6 +175,10 @@
 		D944DE9C1385B8D300475478 = {
 			isa = PBXGroup;
 			children = (
+				D955B4EC138A655B00F8DFAF /* ABSplitView.h */,
+				D955B4ED138A655B00F8DFAF /* ABSplitView.m */,
+				D955B4E5138A594300F8DFAF /* Conframe.icns */,
+				D955B4E1138A58D900F8DFAF /* icon.png */,
 				D9D032AE1389D6A500B679EA /* CoreServices.framework */,
 				D9D032AC1389D67100B679EA /* libz.1.2.3.dylib */,
 				D9D032AA1389D62200B679EA /* SystemConfiguration.framework */,
@@ -209,23 +219,20 @@
 		D944DEB11385B8D300475478 /* Conframe */ = {
 			isa = PBXGroup;
 			children = (
-				D9EFFCC7138A082E0017B614 /* UI */,
+				D9EFFCC7138A082E0017B614 /* UI Extensions */,
 				D9D032E01389E24C00B679EA /* Resources */,
 				D9D032C31389D8C200B679EA /* JSON */,
 				D9D032B01389D87C00B679EA /* MHConvore */,
-				D9D0328F1389D5F000B679EA /* ASIHTTP */,
+				D9D0328F1389D5F000B679EA /* ASIHTTPRequest */,
 				D944DEBD1385B8D300475478 /* ConframeAppDelegate.h */,
 				D944DEBE1385B8D300475478 /* ConframeAppDelegate.m */,
-				D944DEC01385B8D300475478 /* MainMenu.xib */,
 				D944DEB21385B8D300475478 /* Supporting Files */,
-				D98D39221389C0D400858FDC /* LoginRequest.h */,
-				D98D39231389C0D400858FDC /* LoginRequest.m */,
 				D9A8E9DB1389F0B700B53404 /* CustomStripe.h */,
 				D9A8E9DC1389F0B700B53404 /* CustomStripe.m */,
 				D9EFFCD8138A0E5D0017B614 /* HeaderBar.h */,
 				D9EFFCD9138A0E5D0017B614 /* HeaderBar.m */,
-				D9EFFCD5138A0D740017B614 /* ChatView.h */,
-				D9EFFCD6138A0D740017B614 /* ChatView.m */,
+				D9EFFCD5138A0D740017B614 /* LoginView.h */,
+				D9EFFCD6138A0D740017B614 /* LoginView.m */,
 			);
 			path = Conframe;
 			sourceTree = "<group>";
@@ -244,7 +251,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D9D0328F1389D5F000B679EA /* ASIHTTP */ = {
+		D955B4DE138A538A00F8DFAF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D955B4EA138A5FA800F8DFAF /* convore-watermark.png */,
+				D9EFFCD1138A0CFD0017B614 /* header-background.png */,
+				D9EFFCD2138A0CFE0017B614 /* stripe.png */,
+				D9EFFCCB138A0C7A0017B614 /* page-bkg2.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D9D0328F1389D5F000B679EA /* ASIHTTPRequest */ = {
 			isa = PBXGroup;
 			children = (
 				D9D032911389D60A00B679EA /* ASIHTTPRequestConfig.h */,
@@ -266,7 +284,7 @@
 				D9D032A11389D60A00B679EA /* ASIDataDecompressor.h */,
 				D9D032A21389D60A00B679EA /* ASIDataDecompressor.m */,
 			);
-			name = ASIHTTP;
+			name = ASIHTTPRequest;
 			sourceTree = "<group>";
 		};
 		D9D032B01389D87C00B679EA /* MHConvore */ = {
@@ -317,21 +335,20 @@
 		D9D032E01389E24C00B679EA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D9EFFCD1138A0CFD0017B614 /* header-background.png */,
-				D9EFFCD2138A0CFE0017B614 /* stripe.png */,
-				D9EFFCCB138A0C7A0017B614 /* page-bkg2.jpg */,
+				D944DEC01385B8D300475478 /* MainMenu.xib */,
+				D955B4DE138A538A00F8DFAF /* Images */,
 				D9EFFCC5138A055C0017B614 /* UserDefaults.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		D9EFFCC7138A082E0017B614 /* UI */ = {
+		D9EFFCC7138A082E0017B614 /* UI Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				D9EFFCC8138A085A0017B614 /* MiddleAlignedTextFieldCell.h */,
 				D9EFFCC9138A085A0017B614 /* MiddleAlignedTextFieldCell.m */,
 			);
-			name = UI;
+			name = "UI Extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -391,6 +408,9 @@
 				D9EFFCCC138A0C7A0017B614 /* page-bkg2.jpg in Resources */,
 				D9EFFCD3138A0CFE0017B614 /* header-background.png in Resources */,
 				D9EFFCD4138A0CFE0017B614 /* stripe.png in Resources */,
+				D955B4E2138A58D900F8DFAF /* icon.png in Resources */,
+				D955B4E6138A594300F8DFAF /* Conframe.icns in Resources */,
+				D955B4EB138A5FA800F8DFAF /* convore-watermark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,7 +424,6 @@
 				D944DEB91385B8D300475478 /* main.m in Sources */,
 				D944DEBF1385B8D300475478 /* ConframeAppDelegate.m in Sources */,
 				D98D391F1386675100858FDC /* zepto.min.js in Sources */,
-				D98D39241389C0D400858FDC /* LoginRequest.m in Sources */,
 				D9D032A31389D60A00B679EA /* ASIInputStream.m in Sources */,
 				D9D032A41389D60A00B679EA /* ASIFormDataRequest.m in Sources */,
 				D9D032A51389D60A00B679EA /* ASIHTTPRequest.m in Sources */,
@@ -429,8 +448,9 @@
 				D9D032DF1389D8CE00B679EA /* SBJsonWriter.m in Sources */,
 				D9A8E9DD1389F0B700B53404 /* CustomStripe.m in Sources */,
 				D9EFFCCA138A085A0017B614 /* MiddleAlignedTextFieldCell.m in Sources */,
-				D9EFFCD7138A0D750017B614 /* ChatView.m in Sources */,
+				D9EFFCD7138A0D750017B614 /* LoginView.m in Sources */,
 				D9EFFCDA138A0E5D0017B614 /* HeaderBar.m in Sources */,
+				D955B4EE138A655C00F8DFAF /* ABSplitView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
