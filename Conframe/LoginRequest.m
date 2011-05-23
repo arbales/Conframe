@@ -7,6 +7,7 @@
 //
 
 #import "LoginRequest.h"
+#import "ASIHTTPRequest.h"
 
 
 @implementation LoginRequest
@@ -30,7 +31,7 @@
 {
   NSURL *url = [NSURL URLWithString:@"http://allseeing-i.com"];
   __block ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:url];
-#  [request setUsername: 
+//  [request setUsername: 
   [request setCompletionBlock:^{
       // Use when fetching text data
     NSString *responseString = [request responseString];
