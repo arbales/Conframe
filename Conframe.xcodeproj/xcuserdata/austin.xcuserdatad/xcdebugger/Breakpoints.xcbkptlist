@@ -9,11 +9,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "Conframe/ConframeAppDelegate.h"
-         timestampString = "327533477.991343"
+         timestampString = "327837866.781967"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "24"
-         endingLineNumber = "24"
+         startingLineNumber = "26"
+         endingLineNumber = "26"
          landmarkName = "@interface ConframeAppDelegate"
          landmarkType = "2">
       </FileBreakpoint>
@@ -23,11 +23,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "Conframe/ConframeAppDelegate.m"
-         timestampString = "327533477.991343"
+         timestampString = "327838146.060988"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "26"
-         endingLineNumber = "26"
+         startingLineNumber = "98"
+         endingLineNumber = "98"
          landmarkName = "-alert:"
          landmarkType = "5">
       </FileBreakpoint>
