@@ -9,13 +9,39 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "Conframe/ConframeAppDelegate.h"
-         timestampString = "327837866.781967"
+         timestampString = "327963739.078497"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "26"
-         endingLineNumber = "26"
+         startingLineNumber = "27"
+         endingLineNumber = "27"
          landmarkName = "@interface ConframeAppDelegate"
          landmarkType = "2">
+         <Locations>
+            <Location
+               shouldBeEnabled = "Yes"
+               ignoreCount = "0"
+               continueAfterRunningActions = "No"
+               symbolName = "-[ConframeAppDelegate titleView]"
+               urlString = "file://localhost/Users/austin/Workspace/Conframe/Conframe/ConframeAppDelegate.h"
+               timestampString = "327962437.522373"
+               startingColumnNumber = "9223372036854775807"
+               endingColumnNumber = "9223372036854775807"
+               startingLineNumber = "38"
+               endingLineNumber = "38">
+            </Location>
+            <Location
+               shouldBeEnabled = "Yes"
+               ignoreCount = "0"
+               continueAfterRunningActions = "No"
+               symbolName = "-[ConframeAppDelegate setTitleView:]"
+               urlString = "file://localhost/Users/austin/Workspace/Conframe/Conframe/ConframeAppDelegate.h"
+               timestampString = "327962437.546383"
+               startingColumnNumber = "9223372036854775807"
+               endingColumnNumber = "9223372036854775807"
+               startingLineNumber = "38"
+               endingLineNumber = "38">
+            </Location>
+         </Locations>
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "Yes"
@@ -23,13 +49,27 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "Conframe/ConframeAppDelegate.m"
-         timestampString = "327838146.060988"
+         timestampString = "327964607.308199"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "98"
-         endingLineNumber = "98"
+         startingLineNumber = "96"
+         endingLineNumber = "96"
          landmarkName = "-alert:"
          landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "Conframe/ConframeAppDelegate.m"
+         timestampString = "327962289.707343"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "13"
+         endingLineNumber = "13"
+         landmarkName = "groups_controller,topics_controller"
+         landmarkType = "19">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>

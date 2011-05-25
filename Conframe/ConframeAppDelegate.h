@@ -9,6 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #import <WebKit/WebKit.h>
 #import "MHConvoreClient.h"
+#import "NSObject+BlockObservation.h"
 
 @interface ConframeAppDelegate : NSObject <NSApplicationDelegate, MHConvoreClientListener> {
 @private
@@ -24,11 +25,15 @@
     NSTextField *error_message;
     NSBox *login_box;
     IBOutlet NSView *loginView;
+    
     NSArray *groups_list;
     NSArray *topics_list;
-  NSImageView *avatar;
+    NSArray *messages_list;
+    
+    NSImageView *avatar;
     NSPopUpButton *groups_popup;
     NSArrayController *groups_controller;
+    NSArrayController *topics_controller;
     NSTextField *titleView;
 }
 @property (assign) IBOutlet NSTextField *titleView;
@@ -43,8 +48,10 @@
 @property (assign) IBOutlet NSBox *login_box;
 @property (assign) IBOutlet NSPopUpButton *groups_popup;
 @property (assign) IBOutlet NSArrayController *groups_controller;
+@property (assign) IBOutlet NSArrayController *topics_controller;
 @property (assign) NSArray *groups_list;
 @property (assign) NSArray *topics_list;
+@property (assign) NSArray *messages_list;
 @property (assign) IBOutlet NSImageView *avatar;
 
 - (IBAction)loginToConvore:(id)sender;

@@ -10,13 +10,12 @@
 #import <objc/runtime.h>
 
 @implementation ConframeAppDelegate
-@synthesize groups_controller;
+@synthesize groups_controller, topics_controller;
 @synthesize username_field;
 @synthesize password_field;
 @synthesize error_message;
 @synthesize login_box;
-@synthesize groups_list;
-@synthesize topics_list;
+@synthesize groups_list, topics_list, messages_list;
 @synthesize avatar;
 @synthesize groups_popup;
 @synthesize background;
@@ -78,13 +77,12 @@
 /* Called when the client receives a new message */
 - (void)newMessage:(MHConvoreMessage *)message
 {
-    NSLog(@"[%@]: %@", message.user.name, message.message);
+    // NSLog(@"[%@]: %@", message.user.name, message.message);
 }
 
 - (void)getGroups {
     [client groups:^(NSArray *groups, NSError *error) {
         [self setGroups_list:groups];
-        NSLog(@"Groups.");
     }];
 }
 - (IBAction)loginToConvore:(id)sender {
@@ -127,6 +125,17 @@
     [client topicsInGroup:[[[groups_controller selectedObjects] objectAtIndex:0] valueForKey:@"groupId"] block:^(NSArray *topics, NSError *error) {
         [self setTopics_list: topics];
     }]; 
+    [topics_controller addObserverForKeyPath: @"selectedObjects" task:^(id obj, NSDictionary *change) {
+        [self showTopic];
+    }];
+}
+
+- (void)showTopic {
+    [client messagesInTopic:[[[topics_controller selectedObjects] objectAtIndex:0] valueForKey:@"topicId"] block:^(NSArray *messages, NSError *error) {
+        NSLog(@"Topic Messages Loaded");
+        [self setMessages_list: messages];
+    }];
+
 }
 
 -(void)setupTitle {

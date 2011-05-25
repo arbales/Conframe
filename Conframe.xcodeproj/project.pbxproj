@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D91C2B90138C53C30074376D /* NSObject+BlockObservation.m in Sources */ = {isa = PBXBuildFile; fileRef = D91C2B8F138C53C30074376D /* NSObject+BlockObservation.m */; };
 		D944DEAC1385B8D300475478 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D944DEAB1385B8D300475478 /* Cocoa.framework */; };
 		D944DEB61385B8D300475478 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D944DEB41385B8D300475478 /* InfoPlist.strings */; };
 		D944DEB91385B8D300475478 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D944DEB81385B8D300475478 /* main.m */; };
@@ -20,7 +21,6 @@
 		D955B4EB138A5FA800F8DFAF /* convore-watermark.png in Resources */ = {isa = PBXBuildFile; fileRef = D955B4EA138A5FA800F8DFAF /* convore-watermark.png */; };
 		D955B4EE138A655C00F8DFAF /* ABSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = D955B4ED138A655B00F8DFAF /* ABSplitView.m */; };
 		D98D391F1386675100858FDC /* zepto.min.js in Sources */ = {isa = PBXBuildFile; fileRef = D98D391E1386675100858FDC /* zepto.min.js */; };
-		D98D392113866A2F00858FDC /* zepto.min.js in Resources */ = {isa = PBXBuildFile; fileRef = D98D391E1386675100858FDC /* zepto.min.js */; };
 		D9A8E9DD1389F0B700B53404 /* CustomStripe.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A8E9DC1389F0B700B53404 /* CustomStripe.m */; };
 		D9D032A31389D60A00B679EA /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D032951389D60A00B679EA /* ASIInputStream.m */; };
 		D9D032A41389D60A00B679EA /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D032971389D60A00B679EA /* ASIFormDataRequest.m */; };
@@ -69,6 +69,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D91C2B8E138C53C30074376D /* NSObject+BlockObservation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BlockObservation.h"; sourceTree = "<group>"; };
+		D91C2B8F138C53C30074376D /* NSObject+BlockObservation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BlockObservation.m"; sourceTree = "<group>"; };
 		D944DEA71385B8D300475478 /* Conframe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Conframe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D944DEAB1385B8D300475478 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D944DEAE1385B8D300475478 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -172,6 +174,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D91C2B87138C53340074376D /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				D91C2B8E138C53C30074376D /* NSObject+BlockObservation.h */,
+				D91C2B8F138C53C30074376D /* NSObject+BlockObservation.m */,
+			);
+			name = KVO;
+			sourceTree = "<group>";
+		};
 		D944DE9C1385B8D300475478 = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +230,7 @@
 		D944DEB11385B8D300475478 /* Conframe */ = {
 			isa = PBXGroup;
 			children = (
+				D91C2B87138C53340074376D /* KVO */,
 				D9EFFCC7138A082E0017B614 /* UI Extensions */,
 				D9D032E01389E24C00B679EA /* Resources */,
 				D9D032C31389D8C200B679EA /* JSON */,
@@ -400,7 +412,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D944DEB61385B8D300475478 /* InfoPlist.strings in Resources */,
-				D98D392113866A2F00858FDC /* zepto.min.js in Resources */,
 				D944DEBC1385B8D300475478 /* Credits.rtf in Resources */,
 				D944DEC21385B8D300475478 /* MainMenu.xib in Resources */,
 				D944DECB1385F3F400475478 /* Readme.md in Resources */,
@@ -451,6 +462,7 @@
 				D9EFFCD7138A0D750017B614 /* LoginView.m in Sources */,
 				D9EFFCDA138A0E5D0017B614 /* HeaderBar.m in Sources */,
 				D955B4EE138A655C00F8DFAF /* ABSplitView.m in Sources */,
+				D91C2B90138C53C30074376D /* NSObject+BlockObservation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +542,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Conframe/Conframe-Prefix.pch";
 				INFOPLIST_FILE = "Conframe/Conframe-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -549,6 +562,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Conframe/Conframe-Prefix.pch";
 				INFOPLIST_FILE = "Conframe/Conframe-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
